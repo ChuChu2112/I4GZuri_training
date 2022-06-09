@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    border-spacing: 5px;
+}
+
+#school-name, #teacher-name, #class-level {
+    text-align: left;
+}
+
+.adekunle-biology-score, .victor-biology-score, .doe-biology-score {
+    color: red;
+}
+.john-2-chemistry-score, .adekunle-mathematics-score, .adekunle-physics-score, .adekunle-chemistry-score, .john-physics-score, .john-2-physics-score, .peter-physics-score, .peter-chemistry-score, .peter-biology-score, .rukayat-mathematics-score, .rukayat-english-score, .rukayat-physics-score, .rukayat-chemistry-score, .rukayat-biology-score, .paul-mathematics-score, .paul-physics-score, .paul-chemistry-score, .paul-biology-score, .victor-mathematics-score, .victor-chemistry-score, .john-physics-score, .john-2-chemistry-score, .doe-english-score, .doe-chemistry-score, .stephen-mathematics-score, .stephen-physics-score {
+    color: blue;
+}
+
+table {
+    font-weight: bold;
+}
+    
+/* to make all headers share the same width within the "90%" given to the parent table */
+th {
+    width: 10%;
+}
+
+/* to make the width of the "total-scores" column twice of the others */
+/* I had to place it below the previous rule set to utilize CSS cascading feature */
+#total-scores {
+    width: 20%;
+}
+
+.total-score {
+    text-align: right;
+}
