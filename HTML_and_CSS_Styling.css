@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+
+/* changed the background colour to skyblue and added some space on the left and right */
+body{
+    background-color: rgb(152, 199, 218);
+    margin: 1cm;
+}
+
+.navigation-panel{
+    display: flex;
+    border: 0.1cm solid rgb(0, 0, 0);
+    height: 1.5cm;
+    align-content: stretch;
+    background-color: rgb(63, 182, 230);
+}
+
+.about-me-link, .contact-link, .registration-link, .login-link {
+    display: flex;
+    font-size: 3em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: black;
+}
+
+.about-me-link:hover, .contact-link:hover, .registration-link:hover, .login-link:hover{
+    background-color: rgb(146, 187, 204);
+    cursor: pointer;
+}
+
+.page-title{
+    text-align: left;
+    color: black;
+    font-size: 4em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    color: rgb(54, 27, 27);
+    font-size: 1.5em;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.family-picture{
+    float: left;
+    border-style: double;
+    border-color: black;
+    border-width: 0.5cm;
+    margin-right: 0.5cm;
+}
+
+.exclamation{
+    color: red;
+    font-style: italic;
+}
+
+.thank-God{
+    color: blue;
+}
+
+.alt{
+    color: greenyellow;
+    font-style: italic;
+}
+
+.hobbies{
+    padding-left: 1cm;
+    color: green;
+}
+
+.priorities{
+    color: goldenrod;
+}
+
+.sports, .writing, .playing-the-organ, .drawing, .repair-and-maintenance, .cooking, .web-design{
+    color: blue;
+}
+
+.about-me-button, .contact-button, .registration-button, .login-button {
+    width: 3cm;
+    height: 1cm;
+    border: 3px rgb(54, 27, 27) solid;
+}
+
+.about-me-button:active, .contact-button:active, .registration-button:active, .login-button:active{
+    background-color: rgb(129, 72, 72);
+}
+
+.about-me-button:hover, .contact-button:hover, .registration-button:hover, .login-button:hover{
+    background-color: rgb(219, 212, 212);
+    cursor: pointer;
+}
+
+.registration-form{
+    text-align: left;
+}

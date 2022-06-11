@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact page</title>
+    <link rel="stylesheet" href="HTML_and_CSS_Styling.css">
+</head>
+<body>
+    <header>
+        <div id="back-to-top"></div>
+        <nav class="navigation-panel">
+            <a href="About_page.html" class="about-me-link"> About me |</a>
+            <a href="Registration_page.html" class="registration-link"> Registration Page |</a>
+            <a href="Login_page.html" class="login-link"> Login Page</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="page-title">Contact Page</h1>
+        <form action="">
+            <p class="form-data-intro">Please fill in your details to help us know you better</p>
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name" placeholder="Name" required> <br><br>
+            <label for="email">Email: </label>
+            <input type="email" id="email" placeholder="E-mail" required><br><br>
+            <textarea id="message" placeholder="Write us a message" rows="5" cols="40"></textarea><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+
+    <footer style="padding-top: 1cm">
+        <a href="About_page.html" class="about-me-page">
+            <button class="about-me-button" type="button">About Me</button>
+        </a>
+        <a href="Registration_page.html" class="registration-page">
+            <button class="registration-button" type="button">Registration</button>
+        </a>
+        <a href="Login_page.html" class="login-page">
+            <button class="login-button" type="button">Login</button>
+        </a>
+        <!--<p>Click here to go back to top<a href="#back-to-top" class="back-to-top">🔼</a></p>
+        No need for this line of code since the page content is small enough, that it is contained all at once-->
+    </footer>
+</body>
+</html>

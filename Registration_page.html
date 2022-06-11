@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration page</title>
+    <link rel="stylesheet" href="HTML_and_CSS_Styling.css">
+</head>
+<body>
+    <header>
+        <nav class="navigation-panel">
+            <a href="About_page.html" class="about-me-link"> About Me |</a>
+            <a href="Contact_page.html" class="contact-link"> Contact Page |</a>
+            <a href="Login_page.html" class="login-link"> Login Page</a>
+        </nav>
+    </header><br>
+
+    <main>
+        <h1 class="page-title">Registration Page</h1>
+
+        <p class="required-info"> <b>* indicate required fields</b></p>
+
+        <div class="registration-form-space">
+            <form class="registration-form" action="">
+                <fieldset style="width: 30%;">
+                    <legend>Name</legend>
+                    <label for="fname">*First Name:</label>
+                    <input type="text" id="fname" required><br><br>
+                    <label for="lname">*Last Name:</label>
+                    <input type="text" id="lname" required>
+                </fieldset><br>
+
+                <fieldset style="width: 30%">
+                    <legend>Sex</legend>
+                    
+                    <label for="gender" style="padding-left: 0.5cm;">*Gender:</label>
+                    <select name="gender" id="gender" required>Gender
+                        <option value="female">Female</option>
+                        <option value="male">Male</option>
+                    </select>
+                    
+                </fieldset><br>
+
+                <fieldset style="width: 30%;">
+                    <legend>Address</legend>
+                    
+                    <label for="country">Country:</label>
+                    <input type="text" id="country"><br><br>
+                    
+                    <label for="state">State:</label>
+                    <input type="text" id="state" style="margin-left: 0.8cm;"><br>
+
+                </fieldset>
+                <br>
+
+                <input type="submit" value="Register">
+            </form>
+        </div>
+    </main>
+
+    <footer style="padding-top: 1cm">
+        <a href="About_page.html" class="about-me-page">
+            <button class="about-me-button" type="button">About Me</button>
+        </a>
+        <a href="Contact_page.html" class="contact-page">
+            <button class="contact-button" type="button">Contact Page</button>
+        </a>
+        <a href="Login_page.html" class="login-page">
+            <button class="login-button" type="button">Login</button>
+        </a>
+    </footer>
+</body>
